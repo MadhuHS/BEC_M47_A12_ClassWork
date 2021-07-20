@@ -62,6 +62,7 @@ public class Mainclass
 	   new Demo().show();//Non-Static - different class
 	   System.out.println(new Demo().k1);//Non-Static- different class
 	   
+	   
 	   System.out.println("Program ends..");
 	}
 }
