@@ -8,8 +8,21 @@ public class Customer
 	String address;
     String pancard;
     
-    public static void CustomerDetails()
+    public Customer(int a,String b,String c,String d,String e)
     {
-    	
+    	accountID = a;
+    	customerName = b;
+    	email = c;
+    	address = d;
+    	pancard = e;
+    }
+    
+    public void CustomerDetails()
+    {
+    	System.out.println(accountID);
+    	System.out.println(email);
+    	System.out.println(customerName);
+    	System.out.println(address);
+    	System.out.println(pancard);
     }
 }

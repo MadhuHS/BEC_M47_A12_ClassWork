@@ -21,10 +21,10 @@ public class Account
 	
 	public void showAccountDetails()//non-static
 	{
-		System.out.println(accountID);
-		System.out.println(account_Type);
-		System.out.println(accountBalance);
-		System.out.println(openDate);
-		System.out.println(bankName);
+		System.out.println(accountID);//non-static
+		System.out.println(account_Type);//non-static
+		System.out.println(accountBalance);//non-static
+		System.out.println(openDate);//non-static
+		System.out.println(bankName);//Static
 	}
 }
